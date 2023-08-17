@@ -1,0 +1,68 @@
+|DUT
+input_vector[0] => alu_beh:add_instance.B[0]
+input_vector[1] => alu_beh:add_instance.B[1]
+input_vector[2] => alu_beh:add_instance.B[2]
+input_vector[3] => alu_beh:add_instance.B[3]
+input_vector[4] => alu_beh:add_instance.A[0]
+input_vector[5] => alu_beh:add_instance.A[1]
+input_vector[6] => alu_beh:add_instance.A[2]
+input_vector[7] => alu_beh:add_instance.A[3]
+input_vector[8] => alu_beh:add_instance.sel[0]
+input_vector[9] => alu_beh:add_instance.sel[1]
+output_vector[0] << alu_beh:add_instance.op[0]
+output_vector[1] << alu_beh:add_instance.op[1]
+output_vector[2] << alu_beh:add_instance.op[2]
+output_vector[3] << alu_beh:add_instance.op[3]
+output_vector[4] << alu_beh:add_instance.op[4]
+output_vector[5] << alu_beh:add_instance.op[5]
+output_vector[6] << alu_beh:add_instance.op[6]
+output_vector[7] << alu_beh:add_instance.op[7]
+
+
+|DUT|alu_beh:add_instance
+A[0] => carry.IN0
+A[0] => xored.IN0
+A[0] => op[1].DATAA
+A[0] => op[4].DATAB
+A[1] => carry.IN0
+A[1] => carry.IN0
+A[1] => op[2].DATAA
+A[1] => op[5].DATAB
+A[2] => carry.IN0
+A[2] => carry.IN0
+A[2] => op[3].DATAA
+A[2] => op[6].DATAB
+A[3] => carry.IN0
+A[3] => carry.IN0
+A[3] => op[4].DATAA
+A[3] => op[7].DATAB
+B[0] => carry.IN1
+B[0] => xored.IN1
+B[0] => op[0].DATAB
+B[1] => carry.IN1
+B[1] => carry.IN1
+B[1] => op[1].DATAB
+B[2] => carry.IN1
+B[2] => carry.IN1
+B[2] => op[2].DATAB
+B[3] => carry.IN1
+B[3] => carry.IN1
+B[3] => op[3].DATAB
+sel[0] => alu.IN0
+sel[0] => alu.IN0
+sel[0] => alu.IN0
+sel[0] => alu.IN0
+sel[1] => alu.IN1
+sel[1] => alu.IN1
+sel[1] => alu.IN1
+sel[1] => alu.IN1
+op[0] <= op[0]$latch.DB_MAX_OUTPUT_PORT_TYPE
+op[1] <= op[1]$latch.DB_MAX_OUTPUT_PORT_TYPE
+op[2] <= op[2]$latch.DB_MAX_OUTPUT_PORT_TYPE
+op[3] <= op[3]$latch.DB_MAX_OUTPUT_PORT_TYPE
+op[4] <= op[4]$latch.DB_MAX_OUTPUT_PORT_TYPE
+op[5] <= op[5]$latch.DB_MAX_OUTPUT_PORT_TYPE
+op[6] <= op[6]$latch.DB_MAX_OUTPUT_PORT_TYPE
+op[7] <= op[7]$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+

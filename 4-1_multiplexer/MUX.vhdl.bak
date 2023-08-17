@@ -1,0 +1,17 @@
+library ieee;
+use ieee.std_logic_1164.all;
+library work;
+use work.Gates.all;
+entity mux is
+port (I:in bit_vector(1 downto 0); 
+S: std_logic; Y: out std_logic);
+end entity mux;
+architecture Struct of mux is
+signal B1, Y1, Y2: std_logic;
+begin
+ n1:INVERTER port map (A=>S, Y=>B1);
+ a1: AND_2 port map (A=>I(0), B=>B1,Y=>Y1);
+ a2: AND_2 port map (A=>I(1), B=>S, Y=>Y2);
+ q1: OR_2  port map (A=>Y1, B=>Y2, Y=>Y);
+	end Struct;
+	

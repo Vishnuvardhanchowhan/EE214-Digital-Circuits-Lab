@@ -1,0 +1,134 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dF:/arithematic_logic_unit/simulation/modelsim
+Ealu_beh
+Z1 w1632602127
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 1
+R0
+Z4 8F:/arithematic_logic_unit/alu.vhdl
+Z5 FF:/arithematic_logic_unit/alu.vhdl
+l0
+L5 1
+V;G2E;gFNbV0D4cFzIZoi^1
+!s100 >RbVd0oiK7G=D`5=IKoD11
+Z6 OV;C;2020.1;71
+31
+Z7 !s110 1632602468
+!i10b 1
+Z8 !s108 1632602467.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|F:/arithematic_logic_unit/alu.vhdl|
+Z10 !s107 F:/arithematic_logic_unit/alu.vhdl|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Aa1
+R2
+R3
+DEx4 work 7 alu_beh 0 22 ;G2E;gFNbV0D4cFzIZoi^1
+!i122 1
+l88
+L18 86
+V7dDIB0HckfF`_a@6lF<>a0
+!s100 JPVAN2EYPka`KQ=Ie@Xgn1
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Edut
+Z13 w1632227316
+R2
+R3
+!i122 0
+R0
+Z14 8F:/arithematic_logic_unit/DUT.vhd
+Z15 FF:/arithematic_logic_unit/DUT.vhd
+l0
+L3 1
+V>JSRSjEGmOADNk<[KXN5c3
+!s100 :FO3XKTo<jNIoAb2<6^0]0
+R6
+31
+Z16 !s110 1632602467
+!i10b 1
+R8
+Z17 !s90 -reportprogress|300|-93|-work|work|F:/arithematic_logic_unit/DUT.vhd|
+Z18 !s107 F:/arithematic_logic_unit/DUT.vhd|
+!i113 1
+R11
+R12
+Adutwrap
+R2
+R3
+DEx4 work 3 dut 0 22 >JSRSjEGmOADNk<[KXN5c3
+!i122 0
+l20
+L7 34
+VbmD:[8kEecLn4_zo7baYe2
+!s100 mZLFFZg6KMbEEEH`_YScU0
+R6
+31
+R16
+!i10b 1
+R8
+R17
+R18
+!i113 1
+R11
+R12
+Etestbench
+Z19 w1632227296
+R3
+R2
+!i122 2
+R0
+Z20 8F:/arithematic_logic_unit/Testbench.vhdl
+Z21 FF:/arithematic_logic_unit/Testbench.vhdl
+l0
+L7 1
+V]iKK_Z9L:G9B:i8c]3eFH0
+!s100 bWf8kl8zb90X@P1m>V^K20
+R6
+31
+R7
+!i10b 1
+Z22 !s108 1632602468.000000
+Z23 !s90 -reportprogress|300|-93|-work|work|F:/arithematic_logic_unit/Testbench.vhdl|
+!s107 F:/arithematic_logic_unit/Testbench.vhdl|
+!i113 1
+R11
+R12
+Abehave
+R3
+R2
+DEx4 work 9 testbench 0 22 ]iKK_Z9L:G9B:i8c]3eFH0
+!i122 2
+l69
+L9 132
+VB?ln9WA:09P=<a20E;=5B3
+!s100 na67H3I6:f8^4lno><LSC2
+R6
+31
+R7
+!i10b 1
+R22
+R23
+Z24 !s107 F:/arithematic_logic_unit/Testbench.vhdl|
+!i113 1
+R11
+R12

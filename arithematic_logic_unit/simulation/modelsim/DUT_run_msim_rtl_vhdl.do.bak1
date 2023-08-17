@@ -1,0 +1,18 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vcom -93 -work work {F:/alu_codder_file/alu.vhdl}
+vcom -93 -work work {F:/alu_codder_file/DUT.vhd}
+
+vcom -93 -work work {F:/ALU_EXP4/../alu_codder_file/Testbench.vhdl}
+
+vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L maxv -L rtl_work -L work -voptargs="+acc"  Testbench
+
+add wave *
+view structure
+view signals
+run -all

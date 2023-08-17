@@ -1,0 +1,694 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Vishnuvardhan/Desktop/FOUR_BIT_ADDER_SUBTRACTER/simulation/modelsim
+Eand_2
+Z1 w1628436988
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R0
+Z4 8C:/Users/Vishnuvardhan/Desktop/Full_Adder_code_files/Gates.vhdl
+Z5 FC:/Users/Vishnuvardhan/Desktop/Full_Adder_code_files/Gates.vhdl
+l0
+L69 1
+V_k6oDazzb1HG4=<AcHd2:1
+!s100 RZd8H?N1WGUZ1W@delJWd2
+Z6 OV;C;2020.1;71
+31
+Z7 !s110 1628525956
+!i10b 1
+Z8 !s108 1628525956.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/Vishnuvardhan/Desktop/Full_Adder_code_files/Gates.vhdl|
+Z10 !s107 C:/Users/Vishnuvardhan/Desktop/Full_Adder_code_files/Gates.vhdl|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Aequations
+R2
+R3
+DEx4 work 5 and_2 0 22 _k6oDazzb1HG4=<AcHd2:1
+!i122 0
+l74
+L73 4
+V37SRC3QFkdD5Vb=hMWD=m1
+!s100 FP^SFPKfz?ZV8hzn03Zbj0
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Edut
+Z13 w1628512125
+R2
+R3
+!i122 1
+R0
+Z14 8C:/Users/Vishnuvardhan/Desktop/Full_Adder_code_files/DUT.vhdl
+Z15 FC:/Users/Vishnuvardhan/Desktop/Full_Adder_code_files/DUT.vhdl
+l0
+L7 1
+V0d:G0k6nlzU76Ke1I]aiC0
+!s100 ZJA0QQ64jcTobNE]PlXnN0
+R6
+31
+R7
+!i10b 1
+R8
+Z16 !s90 -reportprogress|300|-93|-work|work|C:/Users/Vishnuvardhan/Desktop/Full_Adder_code_files/DUT.vhdl|
+Z17 !s107 C:/Users/Vishnuvardhan/Desktop/Full_Adder_code_files/DUT.vhdl|
+!i113 1
+R11
+R12
+Adutwrap
+R2
+R3
+DEx4 work 3 dut 0 22 0d:G0k6nlzU76Ke1I]aiC0
+!i122 1
+l16
+L12 29
+V:z<7T@ME9S;n2Q8bz@nF<3
+!s100 LE?Egk18`9;8_QPB0lhca1
+R6
+31
+R7
+!i10b 1
+R8
+R16
+R17
+!i113 1
+R11
+R12
+Efour_bit_adder
+Z18 w1628516324
+Z19 DEx4 work 10 full_adder 0 22 Wh3]z3DdST6JGSCUgm82C2
+Z20 DPx4 work 5 gates 0 22 kMid8fST5LT5MgSlNXOa`0
+R2
+R3
+!i122 3
+R0
+Z21 8C:/Users/Vishnuvardhan/Desktop/Full_Adder_code_files/Four_Bit_Adder.vhdl
+Z22 FC:/Users/Vishnuvardhan/Desktop/Full_Adder_code_files/Four_Bit_Adder.vhdl
+l0
+L8 1
+VHiThh4<0F>7di>A]dH^UH3
+!s100 >]W0ABmcWW:B?L:?6[eUH1
+R6
+31
+Z23 !s110 1628525957
+!i10b 1
+Z24 !s108 1628525957.000000
+Z25 !s90 -reportprogress|300|-93|-work|work|C:/Users/Vishnuvardhan/Desktop/Full_Adder_code_files/Four_Bit_Adder.vhdl|
+Z26 !s107 C:/Users/Vishnuvardhan/Desktop/Full_Adder_code_files/Four_Bit_Adder.vhdl|
+!i113 1
+R11
+R12
+Astruct
+R20
+R2
+R3
+DEx4 work 14 four_bit_adder 0 22 HiThh4<0F>7di>A]dH^UH3
+!i122 3
+l17
+L11 31
+V11^IRX2UAQ8Fh;kc^2LEc3
+!s100 Vga84IA[4f]TU@XAb52QU1
+R6
+31
+R23
+!i10b 1
+R24
+R25
+R26
+!i113 1
+R11
+R12
+Efull_adder
+Z27 w1628514306
+R20
+R2
+R3
+!i122 2
+R0
+Z28 8C:/Users/Vishnuvardhan/Desktop/Full_Adder_code_files/Full_Adder.vhdl
+Z29 FC:/Users/Vishnuvardhan/Desktop/Full_Adder_code_files/Full_Adder.vhdl
+l0
+L5 1
+VWh3]z3DdST6JGSCUgm82C2
+!s100 2G>O>S_9zTiTFJ1PYNKVI2
+R6
+31
+R7
+!i10b 1
+R8
+Z30 !s90 -reportprogress|300|-93|-work|work|C:/Users/Vishnuvardhan/Desktop/Full_Adder_code_files/Full_Adder.vhdl|
+Z31 !s107 C:/Users/Vishnuvardhan/Desktop/Full_Adder_code_files/Full_Adder.vhdl|
+!i113 1
+R11
+R12
+Astruct
+R20
+R2
+R3
+R19
+!i122 2
+l10
+L8 14
+VhPRB`IYJYafm4=egfY8b53
+!s100 U=hiCP>MnB667nF@H5EN33
+R6
+31
+R7
+!i10b 1
+R8
+R30
+R31
+!i113 1
+R11
+R12
+Pgates
+R2
+R3
+!i122 0
+R1
+R0
+R4
+R5
+l0
+L3 1
+VkMid8fST5LT5MgSlNXOa`0
+!s100 3639WnlOEDo__l^EbPK@72
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Ehalf_adder
+R1
+R2
+R3
+!i122 0
+R0
+R4
+R5
+l0
+L181 1
+VH@lI0Z6KRKGU]5]o=42NG1
+!s100 WSiG>EJPMPaE]WEX5iizQ3
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 10 half_adder 0 22 H@lI0Z6KRKGU]5]o=42NG1
+!i122 0
+l186
+L185 5
+Vf>feSkV4XV^ZVB>fm1_^41
+!s100 _O4lO681FUTYUhX89Ie2d2
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Einverter
+R1
+R2
+R3
+!i122 0
+R0
+R4
+R5
+l0
+L57 1
+V<YhY1FGl2EQ_<ii>6zVP_1
+!s100 @Id^OH?ez;=0^J;IkMHOE2
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 8 inverter 0 22 <YhY1FGl2EQ_<ii>6zVP_1
+!i122 0
+l62
+L61 4
+VU>m`@aG0@UjZ1cPB5`iQe2
+!s100 Ejo@D^lV8NkD?k:oS6Ffz1
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Enand_2
+R1
+R2
+R3
+!i122 0
+R0
+R4
+R5
+l0
+L80 1
+VTJhGh0hzGQ1NZ>J`>jfMA0
+!s100 LE5ibHbmWlJ34GhISjOV90
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 6 nand_2 0 22 TJhGh0hzGQ1NZ>J`>jfMA0
+!i122 0
+l85
+L84 4
+VBIOl?N0BX4FZW6P`I<0fo0
+!s100 X5KAzMEi?8dL5>9P1?XiN3
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Enor_2
+R1
+R2
+R3
+!i122 0
+R0
+R4
+R5
+l0
+L102 1
+V1Y7YYO28gIgDM2bGOUd>63
+!s100 gb1FO0H3CH4SZzmbAIWm03
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 5 nor_2 0 22 1Y7YYO28gIgDM2bGOUd>63
+!i122 0
+l107
+L106 4
+VchiFoD4SH`2gEUC_>3UCY0
+!s100 TN4Q?@Tb3LZn<eL9<IP<G1
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eor_2
+R1
+R2
+R3
+!i122 0
+R0
+R4
+R5
+l0
+L91 1
+V4a4m3?lezE?4<9;zT@j[R3
+!s100 5gP8nL_n=UVYcCo[Thm3R2
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 4 or_2 0 22 4a4m3?lezE?4<9;zT@j[R3
+!i122 0
+l96
+L95 4
+V_MjM8CO8BVH^o5dcdd70=2
+!s100 b2]kGNYUOC22Q`M^1[N^`1
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Etestbench
+Z32 w1628515182
+R3
+R2
+!i122 4
+R0
+Z33 8C:/Users/Vishnuvardhan/Desktop/FOUR_BIT_ADDER_SUBTRACTER/../Full_Adder_code_files/Testbench.vhdl
+Z34 FC:/Users/Vishnuvardhan/Desktop/FOUR_BIT_ADDER_SUBTRACTER/../Full_Adder_code_files/Testbench.vhdl
+l0
+L7 1
+V]iKK_Z9L:G9B:i8c]3eFH0
+!s100 bWf8kl8zb90X@P1m>V^K20
+R6
+31
+R23
+!i10b 1
+R24
+Z35 !s90 -reportprogress|300|-93|-work|work|C:/Users/Vishnuvardhan/Desktop/FOUR_BIT_ADDER_SUBTRACTER/../Full_Adder_code_files/Testbench.vhdl|
+!s107 C:/Users/Vishnuvardhan/Desktop/FOUR_BIT_ADDER_SUBTRACTER/../Full_Adder_code_files/Testbench.vhdl|
+!i113 1
+R11
+R12
+Abehave
+R3
+R2
+DEx4 work 9 testbench 0 22 ]iKK_Z9L:G9B:i8c]3eFH0
+!i122 4
+l69
+L9 132
+V@U8OQPk>KBG<YHD@j[?]J1
+!s100 67S2R?Gb`oK?E8_82B>ZR1
+R6
+31
+R23
+!i10b 1
+R24
+R35
+Z36 !s107 C:/Users/Vishnuvardhan/Desktop/FOUR_BIT_ADDER_SUBTRACTER/../Full_Adder_code_files/Testbench.vhdl|
+!i113 1
+R11
+R12
+Exnor_2
+R1
+R2
+R3
+!i122 0
+R0
+R4
+R5
+l0
+L125 1
+VO<amSSoR`M7keU_BCzoSW3
+!s100 >2e`6DoS0;EB]6hzeVzUJ2
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 6 xnor_2 0 22 O<amSSoR`M7keU_BCzoSW3
+!i122 0
+l130
+L129 4
+VidiE50gVAUlYo[YSh3EA]1
+!s100 P7i7zI<FOjVM[C[mFnRl50
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Exor_11
+R1
+R2
+R3
+!i122 0
+R0
+R4
+R5
+l0
+L136 1
+Vc?kj8U:W`ajA[if9AX1SY3
+!s100 XWb3zaNk1AMcT^HXbID6H0
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 6 xor_11 0 22 c?kj8U:W`ajA[if9AX1SY3
+!i122 0
+l141
+L140 4
+VQJ7[I5IQhVL8R?^23<_PV3
+!s100 OD>_4bHJna3izdbSzc22g2
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Exor_12
+R1
+R2
+R3
+!i122 0
+R0
+R4
+R5
+l0
+L147 1
+VaEmb`BlWimJQBmeLfL@0G3
+!s100 aSEQUBYXJkQT=T^g`ffDX1
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 6 xor_12 0 22 aEmb`BlWimJQBmeLfL@0G3
+!i122 0
+l152
+L151 4
+V?E1K5cJ:`HDQGHIJ;Z0Z^0
+!s100 eOdJYmWedVNlIH6Wz6K4B0
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Exor_13
+R1
+R2
+R3
+!i122 0
+R0
+R4
+R5
+l0
+L158 1
+V6K]L4B6LXD75U82nOom:11
+!s100 =04M0C:@JQ3jc^kAMmgUk0
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 6 xor_13 0 22 6K]L4B6LXD75U82nOom:11
+!i122 0
+l163
+L162 4
+VmX>bz2OTX01L>:PogFCz=1
+!s100 f19eB9LEEaiXmQMPg6>_o0
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Exor_14
+R1
+R2
+R3
+!i122 0
+R0
+R4
+R5
+l0
+L169 1
+V`A3Go>he@DZfhLFfP4Vb^2
+!s100 KaG>YhdM0k_E5MM`MEM]F1
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 6 xor_14 0 22 `A3Go>he@DZfhLFfP4Vb^2
+!i122 0
+l174
+L173 4
+VTX9D^dA:YLmRRa`VzC^Se2
+!s100 2m2k<[WI?8OXC7o@S_^?_2
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Exor_2
+R1
+R2
+R3
+!i122 0
+R0
+R4
+R5
+l0
+L114 1
+VmdFm4in4SR`_HFWB]B5ho1
+!s100 oO8ga4GjjC8>lBA0B8F5O0
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 5 xor_2 0 22 mdFm4in4SR`_HFWB]B5ho1
+!i122 0
+l119
+L118 4
+V<SF`;oF0Uh=<4ToWdTmdQ0
+!s100 YC;]zi6PaaIZm;7RX8PEP1
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12

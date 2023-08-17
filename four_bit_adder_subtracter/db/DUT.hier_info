@@ -1,0 +1,206 @@
+|DUT
+input_vector[0] => Four_Bit_Adder:add_instance.M
+input_vector[1] => Four_Bit_Adder:add_instance.B0
+input_vector[2] => Four_Bit_Adder:add_instance.B1
+input_vector[3] => Four_Bit_Adder:add_instance.B2
+input_vector[4] => Four_Bit_Adder:add_instance.B3
+input_vector[5] => Four_Bit_Adder:add_instance.A0
+input_vector[6] => Four_Bit_Adder:add_instance.A1
+input_vector[7] => Four_Bit_Adder:add_instance.A2
+input_vector[8] => Four_Bit_Adder:add_instance.A3
+output_vector[0] <= Four_Bit_Adder:add_instance.S0
+output_vector[1] <= Four_Bit_Adder:add_instance.S1
+output_vector[2] <= Four_Bit_Adder:add_instance.S2
+output_vector[3] <= Four_Bit_Adder:add_instance.S3
+output_vector[4] <= Four_Bit_Adder:add_instance.C
+
+
+|DUT|Four_Bit_Adder:add_instance
+A3 => Full_Adder:F3.A
+A2 => Full_Adder:F2.A
+A1 => Full_Adder:F1.A
+A0 => Full_Adder:F0.A
+B3 => XOR_14:X14.B
+B2 => XOR_13:X13.B
+B1 => XOR_12:X12.B
+B0 => XOR_11:X11.B
+M => XOR_11:X11.A
+M => XOR_12:X12.A
+M => XOR_13:X13.A
+M => XOR_14:X14.A
+M => Full_Adder:F0.Cin
+C <= Full_Adder:F3.Cout
+S3 <= Full_Adder:F3.S
+S2 <= Full_Adder:F2.S
+S1 <= Full_Adder:F1.S
+S0 <= Full_Adder:F0.S
+
+
+|DUT|Four_Bit_Adder:add_instance|XOR_11:X11
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|Four_Bit_Adder:add_instance|XOR_12:X12
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|Four_Bit_Adder:add_instance|XOR_13:X13
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|Four_Bit_Adder:add_instance|XOR_14:X14
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|Four_Bit_Adder:add_instance|Full_Adder:F0
+A => HALF_ADDER:ha.A
+B => HALF_ADDER:ha.B
+Cin => AND_2:a1.B
+Cin => XOR_2:x1.B
+S <= XOR_2:x1.Y
+Cout <= OR_2:o1.Y
+
+
+|DUT|Four_Bit_Adder:add_instance|Full_Adder:F0|HALF_ADDER:ha
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|Four_Bit_Adder:add_instance|Full_Adder:F0|AND_2:a1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|Four_Bit_Adder:add_instance|Full_Adder:F0|OR_2:o1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|Four_Bit_Adder:add_instance|Full_Adder:F0|XOR_2:x1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|Four_Bit_Adder:add_instance|Full_Adder:F1
+A => HALF_ADDER:ha.A
+B => HALF_ADDER:ha.B
+Cin => AND_2:a1.B
+Cin => XOR_2:x1.B
+S <= XOR_2:x1.Y
+Cout <= OR_2:o1.Y
+
+
+|DUT|Four_Bit_Adder:add_instance|Full_Adder:F1|HALF_ADDER:ha
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|Four_Bit_Adder:add_instance|Full_Adder:F1|AND_2:a1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|Four_Bit_Adder:add_instance|Full_Adder:F1|OR_2:o1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|Four_Bit_Adder:add_instance|Full_Adder:F1|XOR_2:x1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|Four_Bit_Adder:add_instance|Full_Adder:F2
+A => HALF_ADDER:ha.A
+B => HALF_ADDER:ha.B
+Cin => AND_2:a1.B
+Cin => XOR_2:x1.B
+S <= XOR_2:x1.Y
+Cout <= OR_2:o1.Y
+
+
+|DUT|Four_Bit_Adder:add_instance|Full_Adder:F2|HALF_ADDER:ha
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|Four_Bit_Adder:add_instance|Full_Adder:F2|AND_2:a1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|Four_Bit_Adder:add_instance|Full_Adder:F2|OR_2:o1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|Four_Bit_Adder:add_instance|Full_Adder:F2|XOR_2:x1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|Four_Bit_Adder:add_instance|Full_Adder:F3
+A => HALF_ADDER:ha.A
+B => HALF_ADDER:ha.B
+Cin => AND_2:a1.B
+Cin => XOR_2:x1.B
+S <= XOR_2:x1.Y
+Cout <= OR_2:o1.Y
+
+
+|DUT|Four_Bit_Adder:add_instance|Full_Adder:F3|HALF_ADDER:ha
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|Four_Bit_Adder:add_instance|Full_Adder:F3|AND_2:a1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|Four_Bit_Adder:add_instance|Full_Adder:F3|OR_2:o1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|Four_Bit_Adder:add_instance|Full_Adder:F3|XOR_2:x1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+

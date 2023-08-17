@@ -1,0 +1,325 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dF:/4-1_multiplexer/simulation/modelsim
+Eand_2
+Z1 w1632391577
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R0
+Z4 8F:/4-1_multiplexer/Gates.vhdl
+Z5 FF:/4-1_multiplexer/Gates.vhdl
+l0
+L34 1
+V:f@@cmlo3ze2_?BU0708l2
+!s100 C5Uen:CcYlDoVNEZM]Rc[2
+Z6 OV;C;2020.1;71
+31
+Z7 !s110 1632391848
+!i10b 1
+Z8 !s108 1632391848.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|F:/4-1_multiplexer/Gates.vhdl|
+Z10 !s107 F:/4-1_multiplexer/Gates.vhdl|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Aequations
+R2
+R3
+DEx4 work 5 and_2 0 22 :f@@cmlo3ze2_?BU0708l2
+!i122 0
+l39
+L38 4
+VEC@8Ngo3lBP>J2kPF5Sg21
+!s100 iAG^6ZbfQSDXa1fU2@:mD0
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Edut
+Z13 w1632391538
+R2
+R3
+!i122 1
+R0
+Z14 8F:/4-1_multiplexer/DUT.vhdl
+Z15 FF:/4-1_multiplexer/DUT.vhdl
+l0
+L3 1
+VQDePinZiYKW=:1RkkKGlN1
+!s100 m=ZlQME_A_2`zE2ANa3PH2
+R6
+31
+R7
+!i10b 1
+R8
+Z16 !s90 -reportprogress|300|-93|-work|work|F:/4-1_multiplexer/DUT.vhdl|
+Z17 !s107 F:/4-1_multiplexer/DUT.vhdl|
+!i113 1
+R11
+R12
+Adutwrap
+R2
+R3
+DEx4 work 3 dut 0 22 QDePinZiYKW=:1RkkKGlN1
+!i122 1
+l14
+L8 20
+VidjzO4PfJ7ARl?VBcA>M53
+!s100 3Me@61Imm4aD9KVLThT0k1
+R6
+31
+R7
+!i10b 1
+R8
+R16
+R17
+!i113 1
+R11
+R12
+Pgates
+R2
+R3
+!i122 0
+R1
+R0
+R4
+R5
+l0
+L3 1
+Vj1o`]26]2TnQhA1`lYHAg0
+!s100 0;@F>HKD2HNPedg8L6[mT3
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Einverter
+R1
+R2
+R3
+!i122 0
+R0
+R4
+R5
+l0
+L22 1
+VQQ>N6><c9Zb;kZanD]OgA0
+!s100 bE8BH::gZ09QH4JR9kKM>0
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 8 inverter 0 22 QQ>N6><c9Zb;kZanD]OgA0
+!i122 0
+l27
+L26 4
+V=bA<52j7>OSlUJ>9Y7OH_2
+!s100 dG0Z;HeOeKXdT:QZZ1odD1
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Emux
+Z18 w1632391679
+Z19 DPx4 work 5 gates 0 22 j1o`]26]2TnQhA1`lYHAg0
+R2
+R3
+!i122 2
+R0
+Z20 8F:/4-1_multiplexer/MUX.vhdl
+Z21 FF:/4-1_multiplexer/MUX.vhdl
+l0
+L5 1
+VZQ5=nFJDlIYb<WSk8>2R21
+!s100 nfQ[5CQ:JIE_lLO3kmJO<1
+R6
+31
+R7
+!i10b 1
+R8
+Z22 !s90 -reportprogress|300|-93|-work|work|F:/4-1_multiplexer/MUX.vhdl|
+Z23 !s107 F:/4-1_multiplexer/MUX.vhdl|
+!i113 1
+R11
+R12
+Astruct
+R19
+R2
+R3
+Z24 DEx4 work 3 mux 0 22 ZQ5=nFJDlIYb<WSk8>2R21
+!i122 2
+l11
+L9 8
+VW<I:BbO<6]^=a5_g8g6]I0
+!s100 ]BM<kRQ]j<fEVK^[R:LW:0
+R6
+31
+R7
+!i10b 1
+R8
+R22
+R23
+!i113 1
+R11
+R12
+Emux41
+Z25 w1632391631
+R24
+R19
+R2
+R3
+!i122 3
+R0
+Z26 8F:/4-1_multiplexer/MUX41.vhdl
+Z27 FF:/4-1_multiplexer/MUX41.vhdl
+l0
+L6 1
+VSVP5[41b3OXTa0:^c@K482
+!s100 ;bCJDP3<i>jV_jRhoHBnk1
+R6
+31
+R7
+!i10b 1
+R8
+Z28 !s90 -reportprogress|300|-93|-work|work|F:/4-1_multiplexer/MUX41.vhdl|
+Z29 !s107 F:/4-1_multiplexer/MUX41.vhdl|
+!i113 1
+R11
+R12
+Astruct
+R19
+R2
+R3
+DEx4 work 5 mux41 0 22 SVP5[41b3OXTa0:^c@K482
+!i122 3
+l17
+L11 14
+VN?@RTP1M0o1:`O:aUYX5G3
+!s100 gRTe_?YJY:L2UGofBgWSY3
+R6
+31
+R7
+!i10b 1
+R8
+R28
+R29
+!i113 1
+R11
+R12
+Eor_2
+R1
+R2
+R3
+!i122 0
+R0
+R4
+R5
+l0
+L48 1
+VFNc0P0eA=R;kb?EX`20h=3
+!s100 EAeo5Lh[ckLJC^0dXnd6K3
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 4 or_2 0 22 FNc0P0eA=R;kb?EX`20h=3
+!i122 0
+l53
+L52 4
+V<]Bo@FUT;><5GHXIWoBL52
+!s100 FFCCRLN@Fdl0JIV<HfMQ_0
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Etestbench
+Z30 w1628610878
+R3
+R2
+!i122 4
+R0
+Z31 8F:/4-1_multiplexer/Testbench.VHDL
+Z32 FF:/4-1_multiplexer/Testbench.VHDL
+l0
+L7 1
+V]iKK_Z9L:G9B:i8c]3eFH0
+!s100 bWf8kl8zb90X@P1m>V^K20
+R6
+31
+R7
+!i10b 1
+R8
+Z33 !s90 -reportprogress|300|-93|-work|work|F:/4-1_multiplexer/Testbench.VHDL|
+!s107 F:/4-1_multiplexer/Testbench.VHDL|
+!i113 1
+R11
+R12
+Abehave
+R3
+R2
+DEx4 work 9 testbench 0 22 ]iKK_Z9L:G9B:i8c]3eFH0
+!i122 4
+l69
+L9 132
+Vcf67P3LE;W9YH;zD21k391
+!s100 XhmO7gKM22QNEF5459kQQ1
+R6
+31
+R7
+!i10b 1
+R8
+R33
+Z34 !s107 F:/4-1_multiplexer/Testbench.VHDL|
+!i113 1
+R11
+R12
